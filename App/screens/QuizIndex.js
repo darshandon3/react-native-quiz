@@ -22,11 +22,11 @@ export default ({ navigation }) => (
       }
     />
     <RowItem
-      name="Westerns"
+      name="BTS"
       color="#799496"
       onPress={() =>
         navigation.navigate("Quiz", {
-          title: "Westerns",
+          title: "BTS",
           questions: westernsQuestions,
           color: "#799496"
         })

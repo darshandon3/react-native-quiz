@@ -16,7 +16,16 @@ const questions = [
       { id: "3", text: "8", correct: true },
       { id: "4", text: "9" }
     ]
-  }
+  },
+  {
+    question: "Q3?",
+    answers: [
+      { id: "1", text: "1" },
+      { id: "2", text: "2 2", correct: true },
+      { id: "3", text: "3" },
+      { id: "4", text: "4" }
+    ]
+  },
 ];
 
 export default questions;
